@@ -7,10 +7,199 @@
 html, body {
     width: 100%;
 }
+.heading-font {
+    font-family: 'Playfair Display', serif;
+}
+.paragraph-font {
+    font-family: 'Roboto', sans-serif;
+}
 .d-flex {
     display: flex;
 }
-.logo-section-style {
+.dir-column {
+    flex-direction: column;
+}
+.align-item-center {
+    align-items: center;
+}
+.justify-content-center {
+    justify-content: center;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+.flex-wrap-yes {
+    flex-wrap: wrap;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.section-spacing {
+    width: 100%;
+    padding: 4rem 0;
+}
+.font-weight-thin {
+    font-weight: 100;
+}
+.line-height {
+    line-height: 3rem;
+}
+.letter-spacing {
+    letter-spacing: .25rem;
+}
+.font-size-275 {
+    font-size: 2.75rem;
+}
+.font-size-150 {
+    font-size: 1.50rem;
+}
+.btn {
+    border: none;
+    background-color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn-read-more {
+    padding: .75rem 3rem;
+    border: 2px solid black;
+}
+.padding-1rem {
+    padding: 1rem;
+}
+.padding-bottom-1rem {
+    padding-bottom: 1rem;
+}
+.justify-content-evenly {
+    justify-content: space-evenly;
+}
+.padding-bottom-2rem {
+    padding-bottom: 2rem;
+}
+.padding-bottom-5rem {
+    padding-bottom: 5rem;
+}
+.menu {
+    width: 50%;
+    padding: 2rem;
+}
+.card {
+    width: 33.33%;
+    height: 500px;
+    overflow: hidden;
+    text-align: center; 
+}
+.card img {
+    width: 100%;
+}
+.link-read-more {
+    border-bottom: 2px solid black;
+}
+.link-read-more a {
+    color: black;
+}
+.img-card {
+    width: 50%;
+    height: 800px;
+    overflow: hidden;
+}
+.img-card img {
+    width: 100%;
+}
+.img-card-right {
+    height: 400px;
+    overflow: hidden;
+}
+.img-card-right img {
+    width: 100%;
+}
+.img-right-bottom {
+    width: 50%;
+}
+.dish {
+    width: 20%;
+}
+.background-img {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/pexels-photo-3218467.jpeg");
+}
+.hero-style {
+    color: white;
+    height: 100%;
+}
+.center-div-width {
+    width: 40%;
+}
+.circle-and-text {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+.circle-and-text p {
+    text-indent: 5px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%)
+}
+.footer-color {
+    background-color: #333333;
+    color: white;
+}
+.label-color {
+    color: #4799d9;
+}
+.footer-link {
+    text-decoration: underline;
+}
+@media screen and (max-width:400px) {
+    .font-size-s2 {
+        font-size: 16px;
+    }
+    .section-three-style {
+        height: 2400px;
+    }
+    .flex-item-style {
+        width: 100%;
+    }
+    .sect-four-style {
+        height: 800px;
+    }
+    .sect-four-art-style {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .sect-five {
+        height: 1100px;
+    }
+    .sec-six {
+        flex-direction: column;
+        height: 800px;
+    }
+    .sec-six div {
+        width: 100%;
+    }
+    .left-image img {
+        height: 400px;
+    }
+    .right-image img {
+        height: 200px;
+    }
+    .sec-sev {
+        flex-wrap: wrap;
+        height: 400px;
+        padding-top: 30px;
+    }
+    .sec-five-div {
+        flex-wrap: wrap;
+    }
+}
+/* .logo-section-style {
     width: 100%;
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/pexels-photo-3218467.jpeg");
@@ -37,14 +226,11 @@ html, body {
 }
 .icon-menu {
     padding-bottom: 70px;
-}
+} */
 
-.section-two-style {
+/* .section-two-style {
     width: 100%;
-    flex-direction: column;
-    align-items: center;
-    padding: 100px 0;
-    justify-content: center;
+    
     text-align: center;
 }
 .font-size-s2 {
@@ -107,12 +293,7 @@ html, body {
 .four-padding {
     padding-top: 20px;
 }
-.heading-font {
-    font-family: 'Playfair Display', serif;
-}
-.paragraph-font {
-    font-family: 'Roboto', sans-serif;
-}
+
 .four-btn-style {
     padding: 10px 30px;
     background-color: white;
@@ -180,22 +361,7 @@ html, body {
 .left-img-bottom figure img {
     width: 100%;
 }
-.circle-and-text {
-    display: block;
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
-    background-color: black;
-    color: white;
-    position: relative;
-}
-.circle-and-text p {
-    text-indent: 5px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%)
-}
+
 .sec-sev {
     justify-content: space-around;
     text-align: center;
@@ -219,10 +385,11 @@ html, body {
     padding-bottom: 10px;
 }
 .input-style {
-    width: 300px;
-    height: 30px;
-    margin-bottom: 10px;
+    width: 450px;
+    height: 40px;
+    margin-bottom: 5px;
     text-indent: 5px;
+    border: 1px solid grey;
 }
 
 .sec-nine {
@@ -240,15 +407,15 @@ html, body {
 
 .icon{
     font-size: 40px;
-}
+} 
 .label-color {
     color: #4799d9;
 }
 .footer-link {
     text-decoration: underline;
 }
- .s3-four {
-    /* border-bottom: 2px solid black; */
+.s3-four {
+    border-bottom: 2px solid black;
     position: relative;
 } 
 .s3-four::after {
@@ -266,47 +433,5 @@ html, body {
 }
 .icon-triangle-down {
     font-size: 90px;
-}
+} */
 
-@media screen and (max-width:400px) {
-    .font-size-s2 {
-        font-size: 16px;
-    }
-    .section-three-style {
-        height: 2400px;
-    }
-    .flex-item-style {
-        width: 100%;
-    }
-    .sect-four-style {
-        height: 800px;
-    }
-    .sect-four-art-style {
-        width: 100%;
-        flex-wrap: wrap;
-    }
-    .sect-five {
-        height: 1100px;
-    }
-    .sec-six {
-        flex-direction: column;
-        height: 800px;
-    }
-    .sec-six div {
-        width: 100%;
-    }
-    .left-image img {
-        height: 400px;
-    }
-    .right-image img {
-        height: 200px;
-    }
-    .sec-sev {
-        flex-wrap: wrap;
-        height: 400px;
-        padding-top: 30px;
-    }
-    .sec-five-div {
-        flex-wrap: wrap;
-    }
-}
